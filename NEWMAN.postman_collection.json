@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "d4944188-fcff-43cf-ad17-ab71a597ea6d",
+		"name": "NEWMAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48850359",
+		"_collection_link": "https://franciscojavierjim-4345166.postman.co/workspace/Curso-postman~27e4318a-8e60-479f-a847-ca7bcf949c0a/collection/48850359-d4944188-fcff-43cf-ad17-ab71a597ea6d?action=share&source=collection_link&creator=48850359"
+	},
+	"item": [
+		{
+			"name": "newman-test",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "user_name",
+						"value": "FJ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"message\": \"Go to Visualize tab on the right 👉 located alongside the Pretty, Raw, and Preview options. We have added the visualization code to the Tests tab for a request.\",\n\t\"contacts\": [\n\t\t{\n\t\t\t\"name\": \"Naomi Predovic\",\n\t\t\t\"email\": \"Hermann.Schinner@gmail.com\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Rosie Willms\",\n\t\t\t\"email\": \"Dayne.Labadie@gmail.com\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Gene Rice\",\n\t\t\t\"email\": \"Aric_Howell83@yahoo.com\"\n\t\t},\n\t\t{\n\t\t\t\"name\": \"Tracy Renner V\",\n\t\t\t\"email\": \"Kiley_Jacobson@hotmail.com\"\n\t\t}\n\t\t]\n}\n\t\t"
+				},
+				"url": {
+					"raw": "https://postman-echo.com/get",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newman-test-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
