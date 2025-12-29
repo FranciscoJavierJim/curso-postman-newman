@@ -8,6 +8,7 @@ Este repositorio contiene prácticas realizadas con **Postman** para pruebas de 
 
 El repositorio incluye:
 
+```text
 📁 curso-postman-newman/
 ├── NEWMAN.postman_collection.json # Colección principal de pruebas
 ├── POSTMAN-ECHO.postman_collection.json # Colección de ejemplo con Postman Echo
